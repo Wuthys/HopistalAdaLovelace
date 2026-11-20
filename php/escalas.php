@@ -25,15 +25,15 @@
                 <img src="../imagens_do_projeto/equipe_cinza.svg" alt="">
                 <span>Profissionais</span>
             </a>
-            <a href="#" class="item">
+            <a href="./profissionais.php" class="item">
                 <img src="../imagens_do_projeto/predio_cinza.svg" alt="">
                 <span>Setores</span>
             </a>
-            <a href="#" class="item">
+            <a href="./ferias_afastamentos.php" class="item">
                 <img src="../imagens_do_projeto/aviao_cinza.svg" alt="">
                 <span>Férias e Afastamentos</span>
             </a>
-            <a href="#" class="item">
+            <a href="./trocas_plantao.php" class="item">
                 <img src="../imagens_do_projeto/trocas_cinza.svg" alt="">
                 <span>Trocas de plantão</span>
             </a>
@@ -89,34 +89,6 @@
                 <div class="escala-lado">
                     <span class="plantoes">35 plantões</span>
                     <span class="situacao em-aprovacao">Em aprovação</span>
-                    <svg class="seta" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5B6463" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-                </div>
-            </a>
-
-            <a href="#" class="escala-item">
-                <div>
-                    <h3 class="escala-titulo">Escala Clínica Médica — 05/10 a 11/10</h3>
-                    <p class="escala-info">Clínica Médica · 05 de out — 11 de out 2026 · versão 1 · por Larissa Monteiro</p>
-                </div>
-                <div class="escala-lado">
-                    <span class="plantoes">35 plantões</span>
-                    <span class="situacao rascunho">Rascunho</span>
-                    <svg class="seta" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5B6463" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-                </div>
-            </a>
-
-            <a href="#" class="escala-item">
-                <div>
-                    <h3 class="escala-titulo">Escala 28/09 a 04/10</h3>
-                    <p class="escala-info">— · 28 de set — 04 de out 2026 · versão 1 · por Enf. Helena Duarte</p>
-                </div>
-                <div class="escala-lado">
-                    <span class="alerta">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B4531A" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
-                        4
-                    </span>
-                    <span class="plantoes">108 plantões</span>
-                    <span class="situacao publicada">Publicada</span>
                     <svg class="seta" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5B6463" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
                 </div>
             </a>

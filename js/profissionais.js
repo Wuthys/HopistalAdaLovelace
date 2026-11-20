@@ -62,3 +62,35 @@ linhas.forEach(function (linha) {
 
     posicao++;
 });
+
+// JANELA NOVO PROFISSIONAL
+const janela = document.getElementById("modal-profissional");
+const formulario = document.getElementById("form-profissional");
+const botaoAbrir = document.getElementById("abrir-modal");
+const botaoFechar = document.getElementById("fechar-modal");
+const botaoCancelar = document.getElementById("cancelar-modal");
+
+botaoAbrir.addEventListener("click", function (evento) {
+    evento.preventDefault();
+    janela.showModal();
+});
+
+botaoFechar.addEventListener("click", function () {
+    janela.close();
+});
+
+botaoCancelar.addEventListener("click", function () {
+    janela.close();
+});
+
+// Fecha ao clicar fora da janela (no fundo escuro)
+janela.addEventListener("click", function (evento) {
+    if (evento.target === janela) {
+        janela.close();
+    }
+});
+
+// Limpa o formulário sempre que a janela fechar
+janela.addEventListener("close", function () {
+    formulario.reset();
+});

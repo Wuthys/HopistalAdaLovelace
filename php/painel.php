@@ -25,15 +25,15 @@
                 <img src="../imagens_do_projeto/equipe_cinza.svg" alt="">
                 <span>Profissionais</span>
             </a>
-            <a href="#" class="item">
+            <a href="./setores.php" class="item">
                 <img src="../imagens_do_projeto/predio_cinza.svg" alt="">
                 <span>Setores</span>
             </a>
-            <a href="#" class="item">
+            <a href="./ferias_afastamentos.php" class="item">
                 <img src="../imagens_do_projeto/aviao_cinza.svg" alt="">
                 <span>Férias e Afastamentos</span>
             </a>
-            <a href="#" class="item">
+            <a href="./trocas_plantao.php" class="item">
                 <img src="../imagens_do_projeto/trocas_cinza.svg" alt="">
                 <span>Trocas de plantão</span>
             </a>
